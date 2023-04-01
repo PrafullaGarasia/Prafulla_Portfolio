@@ -1,0 +1,371 @@
+@charset "utf-8";
+@font-face 
+{
+    font-family: 'fira_sans_extra_condensedRg';
+    src: url('../font/firasansextracondensed-regular-demo.html');
+    src: url('../font/firasansextracondensed-regular-webfont.eot') format('embedded-opentype'),
+         url('../font/firasansextracondensed-regular-webfont.woff2') format('woff2'),
+         url('../font/firasansextracondensed-regular-webfont.woff') format('woff'),
+         url('../font/firasansextracondensed-regular-webfont.ttf') format('truetype'),
+         url('../font/firasansextracondensed-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*
+	Assignment:Fianl_Portfolio
+	Author: Prafulla Kalusinh Garasia
+	Student No.: 0797964
+    Date:2022-04-20
+	Filename: external_About.css
+	Copyright: 2022-All rights reserved   
+*/
+
+/*
+Color Guide:
+1.#9ea494
+2.#f2f2f2
+3.#ddd
+4.black
+5.#fffffff5
+6.white
+7.rgb(3, 3, 3)
+8.rgb(255, 255, 255)
+10.hsl(0, 0%, 100%)
+11.#000000
+12.rgb(255, 222, 4)
+13.rgb(247, 234, 176)
+14.rgb(255, 213, 2)
+*/
+
+/*
+Typography Guide:
+
+1.'Oswald',Verdana, Geneva, Tahoma, sans-serif
+2.'Roboto Condensed',Arial, Helvetica, sans-serif
+3.'fira_sans_extra_condensedRg',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+*/
+
+/*
+Table of Contents:
+
+1.HTML & Body Styles
+2.Main Styles 
+3.Navigation Styles
+4.List Styles
+5.Heading Styles
+6.Article Styles 
+7.Paragraph Styles
+8.Section Styles 
+9.Image Styles
+10.Figure Styles
+11.Footer Styles
+12.For Social Media logo
+13.For mobile phones
+*/
+
+/*1.HTML & Body Styles*/
+
+html 
+{	
+	margin: 0px auto;
+}
+
+body 
+{
+	padding-left: 4.50%;
+	padding-right: 4.50%;
+	margin: 0px auto auto auto;
+	background-image: url(../img/project.jpeg);
+	background-color: #9ea494;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 2.Main Styles */
+
+main
+{ 
+    overflow: hidden;
+}
+/* 3.Navigation Styles */
+
+nav
+{
+	overflow: hidden;
+}
+
+nav a
+{
+	float: right;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'fira_sans_extra_condensedRg',Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav a:hover 
+{
+	background-color: #ddd;
+	color: black;
+	text-decoration:underline;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+  
+/* 4.List Styles */
+
+ul
+{
+	list-style-type: square;
+}
+
+li
+{
+	margin-left: 2em;
+	margin-top: 1%;
+	font-family: 'Roboto Condensed',Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	line-height: 1.2em;
+	font-style: normal;
+	color:hsl(0, 0%, 100%);
+}
+/* 5.Heading Styles */
+
+h1
+{	
+	text-align: center;
+	padding-top: 5%;
+	font-size: 4em;
+	margin: 10px 0 10px ;
+	text-shadow: 2px 2px 8px #fffffff5;
+	text-decoration-color: rgb(255, 255, 255); 
+}
+
+h2
+{	
+	text-align: left;
+	font-size: 2em;
+	margin: 0 0 10px ;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+h1,h2
+{
+	font-family: 'Oswald',Verdana, Geneva, Tahoma, sans-serif;
+	text-transform: uppercase;
+	color:rgb(255, 222, 4);
+}
+
+/*6.Article Styles */
+
+article ul li:nth-child(2n+2) 
+{
+	color:rgb(247, 234, 176);
+	font-size: 1.5em;
+	line-height: 1.2em;
+	padding-left: 1.7%;
+	list-style-type: none;
+
+}
+
+/* 7.Paragraph Styles*/
+p
+{	
+	margin: 1% 1%;
+	font-size: 1.5em;
+	color:hsl(0, 0%, 100%);
+	font-family: 'Roboto Condensed',Arial, Helvetica, sans-serif;
+	font-style: normal;
+	line-height: 1.2em;
+}
+
+/* 8.Section Styles */
+
+section img
+{	
+	display: block;
+	box-sizing: border-box;
+	width: 100px;
+}
+
+/* 9.Image Styles */
+
+img
+{	
+	filter: drop-shadow(8px 8px 10px gray);	
+	transition: 0.8s;
+}
+
+img:hover
+{
+	transform: scale(1.5);
+}
+
+/* 10.Figure Styles */
+
+figure
+{
+	position: relative;
+	float: left;
+	margin: 10px;
+}
+
+figure:hover
+{
+	z-index: 100;
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+
+figcaption
+{
+	visibility: hidden;
+  	background-color: rgb(255, 213, 2);
+  	color: rgb(3, 3, 3);
+  	text-align: center;
+  	border-radius: 4px;
+  	padding: 5px 0;
+	top: 70%;
+	left: -5%;
+  	position: absolute;
+  	z-index: 1;
+	font-size: 1em;
+}
+
+figure:hover figcaption
+{
+	visibility: visible;
+	opacity: 1;	
+}
+
+/* 11.Footer Styles */
+
+footer 
+{	
+	border-top: 2px outset rgb(255, 255, 255);
+}
+
+footer p 
+{	
+	text-align: center;
+	clear: both;
+	font-size: 1.7em;
+	font-family: 'Roboto Condensed',Arial, Helvetica, sans-serif;
+	color:hsl(0, 0%, 100%);
+}
+/*12.For Social Media logo*/
+.fa 
+{
+	
+	padding: 20px;
+	font-size: 20px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	float: right;
+}
+
+.fa:hover 
+{
+	opacity: 0.7;
+}
+  
+.fa-facebook 
+{
+	background: #000000;
+	color: white;
+}
+  
+.fa-twitter 
+{
+	background: #000000;
+	color: white;
+}
+  
+.fa-google 
+{
+	background: #000000;
+	color: white;
+}
+  
+.fa-linkedin 
+{
+	background: #000000;
+	color: white;
+}
+  
+.fa-youtube 
+{
+	background: #000000;
+	color: white;
+}
+  
+.fa-instagram 
+{
+	background: #000000;
+	color: white;
+}
+/* 13.For mobile phones: */
+@media only screen and (max-width: 667px) 
+{
+	
+	main 
+	{
+	  	width: 100%;
+	}
+	
+	nav a
+	{
+  		padding: 8px 10px;
+  		font-size: 15px;
+	}
+	h1
+	{	
+		font-size: 3.7em; 
+	}
+	p,li
+	{	
+		font-size: 1.2em;
+	}
+	article ul li:nth-child(2n+2) 
+	{
+		font-size: 1.2em;
+	}
+	section img
+	{	
+		width: 50px;
+		padding-left: 4%;
+	}
+	figcaption
+	{
+  		text-align: left;
+  		border-radius: 1px;
+		top:10%;
+		font-size: .8em;
+	}
+	figure:hover figcaption
+	{	
+		padding-bottom: 5%;
+		padding-right: 5%;
+	}
+	footer p 
+	{	
+		font-size: 1em;
+	}
+	.fa 
+  	{
+		padding: 10px;
+		font-size: 10px;
+		width: 10px;
+  	}
+}
