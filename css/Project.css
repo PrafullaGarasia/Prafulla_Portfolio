@@ -16,27 +16,25 @@
 	Assignment:Fianl_Portfolio
 	Author: Prafulla Kalusinh Garasia
 	Student No.: 0797964
-    Date:2022-04-20
-	Filename: external_Project.css
-	Copyright: 2022-All rights reserved   
+    Date:2022-04-01
+	Filename: Project.css
+	Copyright: 2023-All rights reserved   
 */
 
 /*
 Color Guide:
-1.#9ea494
-2.#f2f2f2
-3.#ddd
-4.black
-5.#fffffff5
-6.white
-7.rgb(3, 3, 3)
-8.rgb(255, 255, 255)
-9.rgba(255, 213, 2, 0.762)
+
+1.rgb(255, 255, 255
+2.#140d0d
+3.hsl(62, 100%, 52%)
+4.rgb(255, 222, 4)
+5.#f2f2f2
+6.black
+7.white
+8.rgb(0, 0, 0)
+9.rgb(255, 255, 255)
 10.hsl(0, 0%, 100%)
 11.#000000
-12.rgb(255, 222, 4)
-13.rgb(247, 234, 176)
-14.rgb(255, 213, 2)
 */
 
 /*
@@ -54,16 +52,17 @@ Table of Contents:
 2.Main Styles 
 3.Heading Styles
 4.Navigation Styles
-5.Section Styles
-6.Paragraph Styles
-7.Image Styles
-8.Figure Styles 
-9.Footer Styles
-10.For Social Media logo
-11.For mobile phones
+5.List Styles
+6.Section Styles
+7.Paragraph Styles
+8.Image Styles
+9.Figure Styles 
+10.Footer Styles
+11.For Social Media logo
+12.For mobile phones
 */
 
-/*1.HTML & Body Styles*/
+/*-----------------------------------------------1.HTML & Body Styles-----------------------------------------*/
 
 html 
 {	
@@ -80,14 +79,14 @@ body
     background-size: cover;
 }
 
-/* 2.Main Styles */
+/* ---------------------------------------------------------------2.Main Styles -------------------------------------------------------------*/
 
 main
 { 
     overflow: hidden;
 }
 
-/* 3.Heading Styles */
+/* ----------------------------------------------------------3.Heading Styles------------------------------------------------------------ */
 
 h1
 {	
@@ -113,7 +112,7 @@ h3{
 	font-size: 1.2em;
 	font-family: 'Oswald',Verdana, Geneva, Tahoma, sans-serif;
 }
-/* 4.Navigation Styles */
+/* ---------------------------------------------------------------4.Navigation Styles -------------------------------------------------*/
 
 .navbar {
     background: #140d0d;
@@ -147,7 +146,7 @@ h3{
     justify-content: flex-end;
 }
   
-/* 4.List Styles */
+/* ----------------------------------------------------------------------5.List Styles --------------------------------------------------*/
 
 ul
 {
@@ -164,7 +163,7 @@ li
 	font-style: normal;
 	color:hsl(0, 0%, 100%);
 }
-/* 5.Section Styles */
+/* -----------------------------------------------------------------------6.Section Styles------------------------------------------------------- */
 
 section img
 {		
@@ -174,7 +173,7 @@ section img
     height: 300px;
 }
 
-/* 6.Paragraph Styles*/
+/* ------------------------------------------------------------------7.Paragraph Styles-----------------------------------------------------------*/
 p
 {	
 	margin: 1% 1%;
@@ -183,13 +182,13 @@ p
 	font-family: 'Roboto Condensed',Arial, Helvetica, sans-serif;
 }
 
-/* 7.Image Styles */
+/* ----------------------------------------------------------------------8.Image Styles------------------------------------------------------------- */
 
 img
 {	
     margin: 8%;
     padding-top: 4%;
-	filter: drop-shadow(8px 8px 10px gray);	
+	filter: drop-shadow(8px 8px 10px #B4D000);	
 	transition: 0.8s;
 }
 
@@ -198,7 +197,7 @@ img:hover
 	transform: scale(1.5);
 }
 
-/* 8.Figure Styles */
+/* --------------------------------------------------------------------9.Figure Styles--------------------------------------------------------------- */
 
 figure
 {
@@ -234,7 +233,7 @@ figure:hover figcaption
 }
 
 
-/* 9.Footer Styles */
+/* -------------------------------------------------------------------------------10.Footer Styles-------------------------------------------------- */
 
 footer 
 {	
@@ -248,7 +247,7 @@ footer p
 	font-family: 'Roboto Condensed',Arial, Helvetica, sans-serif;
 	color:hsl(0, 0%, 100%);
 }
-/*10.For Social Media logo*/
+/*------------------------------------------------------------------11.For Social Media logo---------------------------------------------------*/
 .fa 
 {
 	
@@ -265,6 +264,7 @@ footer p
 .fa:hover 
 {
 	opacity: 0.7;
+	color:#B4D000
 }
   
 .fa-facebook 
@@ -280,7 +280,7 @@ footer p
 {
 	color: white;
 }
-/*11. For mobile phones: */
+/*------------------------------------------------------------------------------12. For mobile phones: ------------------------------------------*/
 @media only screen and (max-width: 667px) 
 {
 	
