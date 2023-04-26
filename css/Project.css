@@ -280,6 +280,9 @@ footer p
 {
 	color: white;
 }
+.fa-github {
+	color: white;
+}
 /*------------------------------------------------------------------------------12. For mobile phones: ------------------------------------------*/
 @media only screen and (max-width: 667px) 
 {
